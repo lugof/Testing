@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     color:#efeee7;
     background-color: #333333;
@@ -7,45 +7,37 @@ h1{
     margin: 0;
 }
 
-section{
-    margin-left: 200px;    
-}
-
-body{
+body {
 background-color: #efeee7;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color: #333333;
 margin: 0;
 padding: 0;
-line-height: 150%;
 font-size: 18px;
 }
 
-h2{
+h2 {
     font-size: 24px;
-}
+    }
 
-.container{
+.container {
     width: 1024px;
-    margin: 0, auto;
-}
+    margin: 0 auto;
+    }
 
-
-#contact-info, #main-bio, #bio-image,
+#contact-info,
+#main-bio,
+#bio-image
      {
-        float: right;
-    
+        float: left;
       }
 
-#main-bio{
+#main-bio {
     width: 70%;
     }
-#contact-info{
+
+#contact-info {
     width: 30%;
-}
-#bio-image {
-    width:  200px;
-    height: 200px;
     }
 
 a{
